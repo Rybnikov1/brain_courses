@@ -15,11 +15,91 @@
 	<hr><!--горизонтальная линия-->
 	<form>
 		<label for="UserName">Login</label>
-		<input type="text" name="UserName" id="UserName"><br><br>
+		<input type="text" name="UserName" id="UserName" placeholder="Enter your Login" required> <!--placeholder - Текст в самой форме; required - при установке параметра в поле, оно становится обязательным для заполнения. Браузер выдаст подсвечивание обязательного поля-->
+
+        <br><br>
 		<label for="Password">Password</label>
-		<input type="text" name="UserPassword" id="Password"><br>
+		<input type="text" name="UserPassword" id="Password" autofocus><!--autofocus - атрибут, который позволяет установить курсор в нужное поле формы -->
+<br><br>
 		<button>Submit</button>
+<br>        
+        <label for="userData">Введите ваши данные</label> <br>
+        <textarea pattern="[0-9][A-Z]{3}" id="userData" name="UserData" cols="50" rows="25" >Вводить сюда
+        </textarea><!--cols - ширина области в символах; rows - высота; pattern - устанавливает ограничения на ввод данных в поле-->
+<br>  <br>        
+        <select multiple> <!--multiple - множественный выбор пунктов-->
+            <option>Пункт 1</option>
+            <option>Пункт 2</option>
+            <option>Пункт 3</option>
+            <option>Пункт 4</option>
+        </select><!--тег для выпадающего списка-->
+<br><br>
+        
+        <fieldset>
+            <label for="beer">
+                <input type="checkbox" name="beer" id="beer">
+                    Пиво
+            </label>  
+            <label for="tea">
+                <input type="checkbox" name="tea" id="tea">
+                    Чай
+            </label>         
+            <label for="water">
+                <input type="checkbox" name="water" id="water">
+                    Вода
+            </label>    
+        </fieldset>    
+<br><br>        
+        
+        <fieldset>
+            <label for="beerRadio">
+                <input type="radio" name="beerRadio" id="beerRadio">
+                    Пиво
+            </label>  
+            <label for="teaRadio">
+                <input type="radio" name="beerRadio" id="teaRadio">
+                    Чай
+            </label>         
+            <label for="waterRadio">
+                <input type="radio" name="beerRadio" id="waterRadio">
+                    Вода
+            </label>   
+        </fieldset>
+<br>        
+        <button type="submit">
+            Отправить 
+        </button>
+<br> <br>        
+        <fieldset>
+            <input type="file" name="uploadFile"><!--Загрузка файла с диска-->
+        </fieldset>
+<br> <br>        
+        <fieldset>
+            <input type="email" name="userEmail" autocomplete="off" required><!--Ввод e-mail;autocomplete - позволяет отменить автозаполнение поля. required - в данном поле этот атрибут проверяет наличие @ в поле мэйла -->
+        </fieldset>
+<br> <br>        
+        <fieldset>
+            <input type="date" name="dateOf"><!--Выбор даты-->
+        </fieldset> 
+<br> <br>        
+        <fieldset>
+            <input type="range" name="rangeSmth"><!--Ползунок-->
+        </fieldset>
+<br> <br>        
+        <fieldset>
+            <input type="number" name="numberSmth"><!--Выбор/ввод цифр-->
+        </fieldset>
 	</form>
+    
+<br>         
+        <fieldset>
+            <input type="color" name="colorSmth"><!--Выбор цвета-->
+        </fieldset>
+<br>         
+        <fieldset>
+            <input type="search" name="searchSmth"><!--Поиск-->
+        </fieldset>
+	</form>    
 	<hr>
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in mollis nibh. Vivamus ultricies nibh vel tortor porttitor, vitae laoreet nunc pulvinar. Suspendisse potenti. Suspendisse lorem nibh, interdum vitae justo id, iaculis dictum neque. Praesent vel velit pulvinar, rutrum velit ut, accumsan tortor. Praesent dolor ex, pulvinar efficitur odio sit amet, dignissim viverra augue. Donec egestas tincidunt mauris, vulputate mollis enim vulputate non. Integer tortor nisl, egestas sed dolor in, feugiat egestas purus. Donec suscipit felis id arcu venenatis bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in mollis nibh. Vivamus ultricies nibh vel tortor porttitor, vitae laoreet nunc pulvinar. Suspendisse potenti. Suspendisse lorem nibh, interdum vitae justo id, iaculis dictum neque. Praesent vel velit pulvinar, rutrum velit ut, accumsan tortor. Praesent dolor ex, pulvinar efficitur odio sit amet, dignissim viverra augue. Donec egestas tincidunt mauris, vulputate mollis enim vulputate non. Integer tortor nisl, egestas sed dolor in, feugiat egestas purus. Donec suscipit felis id arcu venenatis bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in mollis nibh. Vivamus ultricies nibh vel tortor porttitor, vitae laoreet nunc pulvinar. Suspendisse potenti. Suspendisse lorem nibh, interdum vitae justo id, iaculis dictum neque. Praesent vel velit pulvinar, rutrum velit ut, accumsan tortor. Praesent dolor ex, pulvinar efficitur odio sit amet, dignissim viverra augue. Donec egestas tincidunt mauris, vulputate mollis enim vulputate non. Integer tortor nisl, egestas sed dolor in, feugiat egestas purus. Donec suscipit felis id arcu venenatis bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in mollis nibh. Vivamus ultricies nibh vel tortor porttitor, vitae laoreet nunc pulvinar. Suspendisse potenti. Suspendisse lorem nibh, interdum vitae justo id, iaculis dictum neque. Praesent vel velit pulvinar, rutrum velit ut, accumsan tortor. Praesent dolor ex, pulvinar efficitur odio sit amet, dignissim viverra augue. Donec egestas tincidunt mauris, vulputate mollis enim vulputate non. Integer tortor nisl, egestas sed dolor in, feugiat egestas purus. Donec suscipit felis id arcu venenatis bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in mollis nibh. Vivamus ultricies nibh vel tortor porttitor, vitae laoreet nunc pulvinar. Suspendisse potenti. Suspendisse lorem nibh, interdum vitae justo id, iaculis dictum neque. Praesent vel velit pulvinar, rutrum velit ut, accumsan tortor. Praesent dolor ex, pulvinar efficitur odio sit amet, dignissim viverra augue. Donec egestas tincidunt mauris, vulputate mollis enim vulputate non. Integer tortor nisl, egestas sed dolor in, feugiat egestas purus. Donec suscipit felis id arcu venenatis bibendum.
 	</p>
