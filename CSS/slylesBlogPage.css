@@ -1,0 +1,45 @@
+body {
+    width: 975px;
+    margin: 0 auto;
+    font-family: Open Sans;
+}
+
+header {
+    width: 975px;
+    height: 100px;
+    background: #66A0E2;
+margin-top: 15;
+}
+
+header>h1{
+    padding: 25;
+    color: #FFF;
+}
+
+.leftSide {
+    width: 400px;
+    float: left;
+    margin: 15 15;
+    box-shadow: 0 0 1px;
+    padding: 25;
+}
+
+.rightSide {
+    width: 400px;
+    float: right;
+    margin: 15 15;
+    box-shadow: 0 0 1px;
+    padding: 25;
+}
+
+.leftSide div, .rightSide div{
+    border-radius: 5px;
+    border: 1px solid #717171;
+    margin-top: 15;
+    padding: 0 15 15 15;
+}
+
+
+.rightSide div {
+    color: #717171;
+}
