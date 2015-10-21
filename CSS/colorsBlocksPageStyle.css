@@ -1,0 +1,39 @@
+body {
+    background: #9a9a9a;
+    width: 1020px;
+    margin: 0 auto;
+}
+
+div {
+    padding: 20px;
+    margin: 10px 0;
+    width: 800px;
+    font-family: Arial, sans-serif;/*изменение семейства шрифта*/
+}
+
+.myClass1 {
+    background: #36886D;
+    color: #FFF;
+    
+}
+
+.myClass2 {
+    background: #FF3EC2;
+    color: #FFF;
+    font-size: 10px;
+    font-style: italic;/*можно изменить стиль цвета italic, normal etc*/
+    text-transform: uppercase; /*изменение uppercase(все буквы заглавные),lowercase (все буквы маленькие), capitalize(каждое следующее слово с большой буквы)*/
+    text-decoration: overline;/*задает различные стили подчеркивания/зачеркивания текста, none - убрать подчеркивание*/
+    letter-spacing: 0.2em;/*задает интервал между буквами*/
+
+}
+
+.myClass3 {
+    background: #FFF;
+    opacity: 0.9;/*прозрачность от 1 до 0*/
+    font-weight: 100;/*жирность шрифта*/
+    line-height: 20px;/*задает межстрочный интервал. Золотое правило межстрочного интервала основной размер*1,5 px (или прибавить 4 px)*/
+    word-spacing: 0.5em;/*интервал между словами*/
+    text-align: left;/*выравнивание текста left right center justify*/
+
+}

@@ -1,0 +1,91 @@
+body {
+    background: ;
+    color: #333;
+    width: 800px;
+    margin: 15px auto;
+}
+
+header {
+    height: 100px;
+    background: #fff;
+    border-bottom: 5px solid #eee;
+    border-top: 1px solid #eee;
+}
+header h1{
+    padding: 25px 0 25px 5px;
+    font-size: 50px;
+    margin: 0;
+}
+.aHeader {
+    margin: 10px 0 0 0;
+     font-size: 12px;
+}
+
+.contry {
+    color: #C00;
+}
+
+
+.title>h1 {
+    font-size: 36px;
+    font-family: Open Sans, sans-serif;
+}
+.title>h2 {
+ font-size: 24px;
+ font-family: Open Sans, sans-serif;  
+}
+
+img {
+    width: 700px;
+}
+
+figcaption {
+    font-size: 12px;
+    margin-bottom: 15px;
+    background: rgba(0, 0, 0, 0.9);
+    width: 694px;
+    padding: 10px 0 10px 5px;
+    color: #FFF;
+}
+
+.content p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    padding: 0px 15px;
+    margin-top: 3px;
+    line-height: 16px;
+}
+
+.content h2 {
+    font-size: 18px;
+    margin-bottom: 0px;  
+}
+
+.author{
+    height: 101px;
+    margin-top: 25px;
+}
+.author>img {
+    width: 100px;
+    height: 101px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.authorName, .authorPosition {
+    position: relative;
+    top: 30px;
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+}
+
+footer {
+    height: 100px;
+    border-bottom: 1px solid #eee;
+    border-top: 5px solid #eee;
+    margin: 15 0 0 0;
+}
+footer h2 {
+    margin-bottom: 4px;
+}

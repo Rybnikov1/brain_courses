@@ -3,13 +3,7 @@ body {
     color: #333;
 }
 
-h1 {
-    color: #a62b2b;
-}
 
-h2,h3,h4{
-    color: #666;
-}
 
 .myClass {
     color: #d2691e;
@@ -32,4 +26,20 @@ h1+p {
 
 p {
 padding-left: 15;
+}
+
+.myClass1 {
+    background: #23887C;
+    color: #FFF;
+    height: 100px;
+}
+.myClass2 {
+    background: #4D0035;
+    color: rgb(255, 255, 255);
+    height: 100px;
+}
+
+.myClass3 {
+
+    color: #393939;
 }
