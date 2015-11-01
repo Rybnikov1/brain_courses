@@ -14,7 +14,12 @@ div {
 .myClass1 {
     background: #36886D;
     color: #FFF;
+    text-shadow: 1px 1px 0px #000000; /*задает тень тексту 1- отступ по оси х 2 - отступ по оси у */
     
+}
+
+h1.myClass :first-letter {
+    font-size: 200px;
 }
 
 .myClass2 {
@@ -35,5 +40,83 @@ div {
     line-height: 20px;/*задает межстрочный интервал. Золотое правило межстрочного интервала основной размер*1,5 px (или прибавить 4 px)*/
     word-spacing: 0.5em;/*интервал между словами*/
     text-align: left;/*выравнивание текста left right center justify*/
+    box-shadow: 0 0 10px #000000;
 
+}
+
+.textInline {
+    background: #FF3EC2;
+    display: block;
+    margin: 5px 0px;
+    padding: 10px 10px;
+}
+
+.mainMenu {
+    
+}
+
+.radiusBlock {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px 5px 20px 5px; 
+    background: #e04d0c;    
+}
+
+.bulitImg li{
+    list-style-image: url(../img/Stickers.png);
+}
+
+.positionBulit {
+    list-style-type: decimal-leading-zero;
+    list-style-position: outside;
+}
+
+.newTable {
+    border-collapse: collapse;
+    border-spacing: 0;
+	width: 100%;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.newTable th {
+    background: #e04d0c;
+    color: #fff;
+    height: 15px;
+    
+}
+.newTable tr {
+    height: 50px;
+}
+
+.newTable tr:nth-child(odd){/*селектор выбирает нечетную строку и изменяет ей стили*/
+    background: #36886D;
+    color: #fff;
+}
+.newTable tr:nth-child(even){/*селектор выбирает четную строку и изменяет ей стили*/
+    background: #3c4542;
+    color: #fff;
+}
+.newTable tr:nth-child(6){/*селектор выбирает 6-ую строку и изменяет ей стили*/
+    background: #296ccf;
+    color: #fff;
+}
+
+.container {
+    background: #bb4545;
+    height: 100px;
+}
+
+.container>.contFirst, .contSecond, .contThird {
+    float: left;
+    background: #fff;
+    width: 70px;
+    border: 1px solid #111;
+}
+.forth {
+    background: #fff;
+    width: ;
+    border: 1px solid #111;
+    clear:both;
 }

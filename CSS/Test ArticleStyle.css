@@ -1,24 +1,55 @@
 body {
-    background: ;
     color: #333;
     width: 800px;
     margin: 15px auto;
+    font-family: Arial, sans-serif;
 }
 
 header {
-    height: 100px;
+    height: 120px;
     background: #fff;
     border-bottom: 5px solid #eee;
     border-top: 1px solid #eee;
 }
 header h1{
-    padding: 25px 0 25px 5px;
+    padding: 25px 0 0 5px;
     font-size: 50px;
     margin: 0;
+    letter-spacing: 5px;
 }
+
+.navigation ul {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    list-style:none;
+    display: inline-block;
+    
+}
+.navLink {
+    border-right: 1px solid #4a4848;
+}
+.navigation a {
+    text-decoration: none;
+    color: #4a4848;
+	padding: 0px 5px;
+	text-align: center;
+	font-weight: bold;
+}
+.navigation a:hover{
+    color: #FF7A37;
+}
+.pdfDoc {
+    background-image: url("../img/pdf.png");
+    background-position: center right;
+    
+}
+
 .aHeader {
     margin: 10px 0 0 0;
-     font-size: 12px;
+    font-size: 12px;
 }
 
 .contry {
@@ -35,8 +66,11 @@ header h1{
  font-family: Open Sans, sans-serif;  
 }
 
-img {
+.content img {
     width: 700px;
+}
+figure {
+    margin-left: 0;
 }
 
 figcaption {
@@ -50,8 +84,7 @@ figcaption {
 
 .content p {
     font-family: Arial, sans-serif;
-    font-size: 12px;
-    padding: 0px 15px;
+    font-size: 14px;
     margin-top: 3px;
     line-height: 16px;
 }
@@ -81,11 +114,15 @@ figcaption {
 }
 
 footer {
-    height: 100px;
+    height: 125px;
     border-bottom: 1px solid #eee;
     border-top: 5px solid #eee;
     margin: 15 0 0 0;
 }
 footer h2 {
     margin-bottom: 4px;
+}
+
+a[href="https://yandex.ru"]{
+    color: #FF7A37;
 }

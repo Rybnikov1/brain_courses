@@ -1,0 +1,60 @@
+body {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+div {
+    height: 40px;
+    background: #83ccc5;
+    outline: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.row:after, {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*='my_cell_'] {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+[class*='my_cell_']:last-of-type {
+margin-right: 0;
+}
+
+.my_container {
+    margin: 0 auto;
+    max-width: 1170px; 
+}
+
+
+.row {
+    
+}
+
+.my_cell_1 {
+    width: 270px;
+}
+
+.my_cell_2 {
+    width: 570px;
+}
+
+.my_cell_3 {
+    width: 870px;
+}
+
+.my_cell_4 {
+    width: 1170px;
+}
+
+
+.footer {
+    clear: both;
+} 
+

@@ -1,0 +1,53 @@
+body {
+    background: #a2a2a2;
+}
+
+.popUp {
+    height: 300px;
+    width: 300px;
+    margin:auto;
+    background: #fff;
+    box-shadow: 0 0 10px #333;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.closeButton {
+    position: absolute;
+    right: 8px;
+    top: 3px;
+    display: inline;
+    text-decoration: none;
+    color: #eee;
+    font-size: 15px;
+}
+.closeButton:hover {
+    color: #414141;
+}
+.closeButton:active {
+    color: #ff903e;
+}
+
+.popHeader {
+    height: 40px;
+    background: #17afff;
+    color: #fff;
+}
+
+.popHeader h1 {
+    padding: 5px 5px;
+    margin: 0;
+}
+
+.popContent p{
+    padding: 10px 10px 0 15px; 
+}
+
+.popButtons {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
